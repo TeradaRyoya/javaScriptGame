@@ -1,0 +1,40 @@
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#game {
+    position: relative;
+    width: 480px;
+    height: 640px;
+    background: black;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 215px;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+
+#block {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+#score {
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
